@@ -49,4 +49,4 @@ Ce fichier est créé automatiquement au premier lancement. Si le fichier est ab
 ## Nom des fonctions
 # ajouter_tache, supprimer_tache, modifier_statut
 # charger_taches, sauvegarder_taches
-# afficher_menu, afficher_taches, demander_saisie 
+# afficher_menu, afficher_taches, demander_saisie
