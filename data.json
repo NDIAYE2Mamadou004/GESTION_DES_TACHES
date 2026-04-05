@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "titre": "exo1",
+    "statut": "à faire"
+  },
+  {
+    "id": 3,
+    "titre": "exo3",
+    "statut": "en cours"
+  }
+]
