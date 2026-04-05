@@ -2,7 +2,7 @@ def ajouter_tache(taches, titre):
     if not titre:
         return taches, False, "le titre est vide"
     for tache in taches:
-        if taches['titre'].lower() == titre.lower:
+        if tache['titre'].lower() == titre.lower:
             return taches, False, f"la taches '{titre}' existe"
     nouvel_tache = {
         "id"    : len(taches) + 1,
@@ -19,7 +19,7 @@ def supprimer_tache(taches, id_tache):
             taches.remove(tache)
             return taches, True, f"tache '{tache['titre']}' supprimée"
     return taches, False, f"Aucune tache avec l'id {id_tache}"
-
+               
 
 def modifier_statut(taches, id_tache, nouveau_statut):
     STATUT_VALIDER = ["à faire", "en cours", "terminée"]

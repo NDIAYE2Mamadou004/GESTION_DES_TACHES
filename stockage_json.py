@@ -16,3 +16,4 @@ def sauvegarder_taches(taches):
             json.dump(taches, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"Erreur lors de la sauvegarde : {e}")
+        
