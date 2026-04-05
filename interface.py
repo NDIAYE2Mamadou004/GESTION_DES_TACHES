@@ -2,9 +2,8 @@ def menu():
     print("\n=========Gestion des taches ========")
     print("\t1.Ajouter une tache")
     print("\t2.Supprimer une tache")
-    print("\t3. Modifier le statut d'une tâche")  
+    print("\t3.Modifier le statut d'une tâche")  
     print("\t4.Afficher les taches")
-    
     print("\t0.Quitter l application")
 
 
